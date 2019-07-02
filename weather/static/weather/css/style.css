@@ -1,3 +1,32 @@
-li {
-    color: green;
+.page {
+  background-image: url('/static/clouds.gif');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 365px 540px;
+  background-overflow:hidden;
+  width:360px;
+  height:800px;
+  overflow:hidden;
+  top: 200px;
+  bottom:180px; 
+  right:auto; 
+  left:200;  
+/*   text-align:center; */
+}
+
+.more_info{
+  font-size: 2 px;
+  font-weight:lighter;
+}
+
+.info{
+  font-size:10 px;
+  font-weight:bold;
+}
+
+.disk{
+  margin: 0 auto;
+  position: absolute;
+  left:37px;
+  bottom: 932px;
 }

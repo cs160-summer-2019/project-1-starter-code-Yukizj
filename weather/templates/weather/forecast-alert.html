@@ -9,8 +9,43 @@
 	<link rel="stylesheet" type="text/css" href="{% static 'weather/css/style.css' %}" />
 
 </head>
-<body>
-	<!-- your single-location forecast with alert interface here -->
+<body class="page">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-6" style="height:120px; width:170px; overflow-y:scroll; background: rgba(255,255,255,0.3);" >
+        <div style="border: 1px  #000000; margin: 0 auto;">
+            <p class = "text-left" id = "more_info" style = "color:white">
+  sunrise &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp <span class = "info">5:49<span style = "font-size: 7px">AM</span></span></span><br>
+  sunset &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <span class = "info">8:34<span style = "font-size: 7px">PM</span></span><br>
+  precipitation&nbsp &nbsp<span class = "info">0<span style = "font-size: 7px">mm</span></span><br>
+  humidity&nbsp &nbsp &nbsp &nbsp &nbsp&nbsp<span class = "info">85<span style = "font-size: 7px">%</span></span><br>
+  ...</p> 
+        </div>
+      </div>
+    </div> 
+  </div>
+    
+   
+  <div style="padding: 40px 0px;">
+    <div class="container">
+        <h1 class = "text-center" id="City" style = "color:white">BERKELEY</h1>
+    </div>
+  </div>
+  
+<div class = "container"> 
+    <div class="row">
+      <div class="text-center">
+          <a href = "/weather/forecast/alert/"><img src = "/static/Jack.png" width = 100px/></a>
+      </div>
+      <div class="col-xs-6">
+          <a href = "/weather/forecast/alert/"><img src = "/static/Jack-alert.png" width = 260px/></a>     
+      </div>
+    </div>
+  </div> 
+  
+ <div class = "disk">
+      <img src = "/static/disk-alert.png"/ width = 280 height = 110>
+  </div>
 </body>
 </html>
 
